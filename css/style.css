@@ -1,0 +1,118 @@
+/* Copyright © 2016 TheoLbrt Inc. All rights reserved. */
+body, div, img{
+	margin: 0px;
+	padding: 0px;
+
+}
+@font-face{
+	font-family: "police";
+	src: url("../police/Bellerose.TTF");
+}
+
+body{
+	background: url('../img/slide.jpg') center 0 no-repeat fixed;
+	height: 500px;
+	padding-top: 100px;
+	background-size: cover;
+}
+
+
+#title{
+	height: 20px;
+	bottom:-65px;
+	width:150px;
+	margin-right:350px;
+	margin-bottom: 5px;
+	padding : 18px;
+	padding-bottom: 25px;
+	position: absolute;
+	color:black;
+	font-family: "police";
+	filter: alpha(opacity=30);
+	opacity: 0.7;
+	background: #FFF;
+	font-size: 19px;
+	font-weight: bolder;
+}
+
+
+#slideshow{
+	border: solid 2px #2574A9;
+	width: 400px;
+	height: 300px;
+	margin-left: 520px;
+	position: relative;
+	overflow: hidden;
+}
+
+#slideshow .content{
+	width: 1600px;
+	position: relative;
+}
+
+#slideshow .slide img{
+width:400px;
+height:300px;
+}
+
+#slideshow .slide{
+	display: inline-block;
+}
+
+.navi{
+	position: absolute;
+	bottom:4px;
+	right: 4px;
+	padding: 3px;
+	margin-bottom: 5px;
+
+}
+
+.navi span{
+	background:#FFF;
+	color:#FFF;
+	border-radius: 100px;
+	padding-right: 3px;
+	margin-left: 2px;
+}
+
+.navi span.active{
+	background:#19B5FE;
+	color:#19B5FE;
+}
+
+
+.pause {
+	position: absolute;
+	margin-left: 695px;
+	margin-top: 10px;
+}
+
+.play {
+	position: absolute;
+	margin-left: 695px;
+	margin-top: 10px;
+
+}
+
+.next {
+	position: absolute;
+	margin-left: 935px;
+	margin-top: -150px;
+}
+
+.prev {
+	position: absolute;
+	margin-left: 468px;
+	margin-top: -150px;
+
+}
+
+.gauge {
+	position: absolute;
+	margin-left: 1280px;
+	bottom: 0px;
+    width: 160px;
+    height: 160px;
+}
+/*END OF CSS*/
